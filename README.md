@@ -13,19 +13,6 @@ Aplicativo de finanças pessoais baseado em linguagem natural, permitindo regist
 
 ---
 
-## Demo
-
-Acesse a versão do projeto:
-
-- Produção: https://seu-app.com  
-- Preview: https://preview.seu-app.com  
-
-Credenciais de teste:
-- Usuário: demo@teste.com  
-- Senha: 123456  
-
----
-
 ## Visão Geral
 
 O Assistente Financeiro Conversacional foi criado para eliminar a complexidade dos apps tradicionais de finanças.
