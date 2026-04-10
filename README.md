@@ -172,10 +172,27 @@ Resultado final no Lovable : https://lovable.dev/projects/f6769ac3-9470-434e-956
 
 Prints das paginas do projeto:
 
-<img width="1045" height="677" alt="DesafioPRD3 2026-04-09 231512" src="https://github.com/user-attachments/assets/85fc9ba3-bd4f-4d5d-9c11-1484169a2eb5" />
-<img width="1137" height="437" alt="DesafioPRD2 2026-04-09 231434" src="https://github.com/user-attachments/assets/3797c73b-7388-4e26-af07-d81968b8ee3d" />
-<img width="1172" height="712" alt="DesafioPRD1 2026-04-09 231325" src="https://github.com/user-attachments/assets/6c5e0a18-308d-4c7c-b2af-39759d10a8c3" />
-<img width="1052" height="627" alt="DesafioPRD 2026-04-09 231218" src="https://github.com/user-attachments/assets/305df4d9-9e8f-4dff-8a6c-073f6b7f3e1f" />
+## Demo
+
+### Chat Conversacional
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/305df4d9-9e8f-4dff-8a6c-073f6b7f3e1f" width="700"/>
+</p>
+
+---
+
+### Resumo Financeiro
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6c5e0a18-308d-4c7c-b2af-39759d10a8c3" width="700"/>
+</p>
+
+---
+
+### Metas Financeiras
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3797c73b-7388-4e26-af07-d81968b8ee3d" width="700"/>
+</p>
+
 
 ## Funcionalidades do Aplicativo
 
