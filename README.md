@@ -1,89 +1,309 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 Chat Fianceiro Fácil do Luiz com Vibe Coding
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+# PRD Refinado no Chat GPT
 
-## ✨ O que é Vibe Coding
+´´´´
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Made With](https://img.shields.io/badge/made%20with-AI%20%2B%20Vibe%20Coding-purple)
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+Aplicativo de finanças pessoais baseado em linguagem natural, permitindo registrar e acompanhar gastos por meio de uma interface conversacional simples, acessível e intuitiva.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+---
 
-## 🎯 Desafio
+## Demo
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+Acesse a versão do projeto:
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+- Produção: https://seu-app.com  
+- Preview: https://preview.seu-app.com  
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+Credenciais de teste:
+- Usuário: demo@teste.com  
+- Senha: 123456  
 
-## 🪄 Etapas do Desafio
+---
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+## Visão Geral
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+O Assistente Financeiro Conversacional foi criado para eliminar a complexidade dos apps tradicionais de finanças.
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+A proposta é simples:  
+permitir que qualquer pessoa controle seus gastos apenas conversando com o sistema.
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+---
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+## Problema
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Usuários frequentemente abandonam aplicativos financeiros porque:
+- exigem entrada manual excessiva  
+- possuem interfaces complexas  
+- não são intuitivos  
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+---
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+## Solução
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+Um assistente financeiro baseado em chat que permite:
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+- registrar gastos em linguagem natural  
+- classificar automaticamente transações  
+- visualizar resumos simples  
+- receber sugestões básicas de economia  
 
-### 2. Explorando o Lovable na Prática
+---
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+## Público-Alvo
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+- Iniciantes em finanças pessoais  
+- Pessoas que evitam planilhas  
+- Usuários com baixa familiaridade digital  
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+---
 
-### 3. Entregando o Desafio na DIO
+## Proposta de Valor
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+Controle financeiro simples, acessível e baseado em conversa.
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+---
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+## Princípios de Design
 
-## 💬 Conclusão
+### Design Universal
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+O sistema é projetado para ser utilizado pelo maior número possível de usuários, independentemente de experiência ou habilidade.
+
+Diretrizes:
+- linguagem simples e clara  
+- interface intuitiva  
+- alto contraste e legibilidade  
+- navegação simplificada  
+- feedback claro do sistema  
+- baixa carga cognitiva  
+
+---
+
+## Funcionalidades
+
+### Registro via linguagem natural
+Exemplo:
+"Gastei 50 reais com mercado hoje"
+
+---
+
+### Classificação automática
+Categorias:
+- Alimentação  
+- Transporte  
+- Moradia  
+- Lazer  
+- Outros  
+
+---
+
+### Metas financeiras
+- criação de metas  
+- acompanhamento de progresso  
+
+---
+
+### Relatórios
+- resumo mensal  
+- gastos por categoria  
+- visual simplificado  
+
+---
+
+### Assistente Financeiro
+- respostas claras  
+- confirmação de ações  
+- sugestões simples  
+
+Exemplo:
+"Entendi. Registrei R$50 em alimentação para hoje."
+
+---
+
+## MVP
+
+### Telas
+- Chat (principal)  
+- Resumo financeiro  
+- Metas  
+- Perfil  
+
+### Funcionalidades
+- registro de gastos por texto  
+- interpretação básica de linguagem natural  
+- armazenamento de dados  
+- classificação automática simples  
+- visualização de resumo  
+- criação de metas  
+
+---
+
+## Arquitetura (Visão Simplificada)
+
+Frontend:
+- React ou Next.js
+
+Backend:
+- Node.js
+
+Banco de dados:
+- PostgreSQL ou Firebase
+
+IA:
+- APIs de linguagem natural
+
+---
+
+## Instalação Local
+
+```bash
+# Clonar o repositório
+git clone https://github.com/seu-usuario/seu-repo.git
+
+# Entrar na pasta
+cd seu-repo
+
+# Instalar dependências
+npm install
+
+# Rodar o projeto
+npm run dev
+´´´
+Interações com o Lovable:
+
+> Crie um APP de Finanças Pessoais, com base no seguinte PRD ( Documento de Requisitos do Produto ) : PRD - Assistente Financeiro Conversacional
+> Porque não fica registrado os lançamentos que efetuei??
+> Sim. Quero que as transações e lançamentos, metas e mensagens, obtenham salvas de forma permanente. ( Quer que eu ative o Lovable Cloud para salvar suas transações, metas e mensagens de forma permanente? )
+
+Resultado final no Lovable : https://lovable.dev/projects/f6769ac3-9470-434e-956c-d7fdffe97522
+
+Prints das paginas do projeto:
+
+<img width="1045" height="677" alt="DesafioPRD3 2026-04-09 231512" src="https://github.com/user-attachments/assets/85fc9ba3-bd4f-4d5d-9c11-1484169a2eb5" />
+<img width="1137" height="437" alt="DesafioPRD2 2026-04-09 231434" src="https://github.com/user-attachments/assets/3797c73b-7388-4e26-af07-d81968b8ee3d" />
+<img width="1172" height="712" alt="DesafioPRD1 2026-04-09 231325" src="https://github.com/user-attachments/assets/6c5e0a18-308d-4c7c-b2af-39759d10a8c3" />
+<img width="1052" height="627" alt="DesafioPRD 2026-04-09 231218" src="https://github.com/user-attachments/assets/305df4d9-9e8f-4dff-8a6c-073f6b7f3e1f" />
+
+## Funcionalidades do Aplicativo
+
+O aplicativo é um assistente financeiro conversacional que permite gerenciar finanças de forma simples, utilizando linguagem natural.
+
+---
+
+### Registro de gastos via conversa
+- Permite registrar despesas por meio de frases simples  
+- Exemplo: "Gastei 70 reais de gasolina"  
+- Elimina a necessidade de formulários complexos  
+
+---
+
+### Interpretação automática (IA)
+O sistema identifica automaticamente:
+- valor da transação  
+- categoria  
+- tipo (gasto ou receita)  
+- data  
+
+---
+
+### Classificação inteligente
+- Categoriza os gastos automaticamente  
+- Exemplo: gasolina → transporte  
+- Reduz esforço manual do usuário  
+
+---
+
+### Confirmação imediata
+- O sistema confirma cada registro realizado  
+- Exibe:
+  - valor  
+  - categoria  
+  - data  
+- Gera confiança e clareza  
+
+---
+
+### Registro de receitas
+- Permite registrar entradas financeiras  
+- Exemplo: "Recebi salário de 2000 reais"  
+
+---
+
+### Assistente financeiro
+- Interface interativa e amigável  
+- Incentiva o uso contínuo  
+- Oferece mensagens simples e orientativas  
+
+---
+
+### Relatórios e insights
+- Resumo mensal de gastos  
+- Visualização por categoria  
+- Apoio na tomada de decisão financeira  
+
+---
+
+### Metas financeiras
+- Criação de metas  
+- Acompanhamento de progresso  
+
+---
+
+### Experiência com Design Universal
+- Linguagem simples e acessível  
+- Interface inspirada em aplicativos de mensagem  
+- Baixa complexidade  
+- Feedback claro e direto  
+
+---
+
+## Resumo
+
+Um aplicativo que transforma o controle financeiro em uma conversa simples, automática e acessível, reduzindo a complexidade dos métodos tradicionais.
+
+## Reflexão
+
+### O que funcionou bem?
+O previo refinamento feito no Chat GPT, foi muito útil, pois os créditos no Lovable acabaram, restringindo as interações ( 03 )
+
+### O que não funcionou como o esperado?
+O Lovable não entendeu muito bem o prompt, mas como as interações gatruitas acabaram, não foi possível melhorar o projeto
+ 
+### O que aprendeu sobre conversar com IAs?
+Aprendi que é praticamente, igual conversar com uma pessoa, quanto maior os detalhes e clareza nas informações, melhor a interaçaõ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
